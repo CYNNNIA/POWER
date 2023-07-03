@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, .about-container, .projects-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+header > div {
+  width: 100px;
+}
+header > div > img {
+  width: 100%;
+}
+.projects-container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+.projects-container > ul > li {
+  background-color: red;
+  width: 200px;
+}
